@@ -105,17 +105,14 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              Invest at the perfect time.
+              Purify your wealth with Zakat.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              By leveraging insights from our network of industry insiders,
-              you’ll know exactly when to buy to maximize profit, and exactly
-              when to sell to avoid painful losses.
+              Zakat serves as a form of purification for wealth and promotes social responsibility within the business community. It redistributes wealth to those in need, fostering economic equity and reducing inequality.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <AppStoreLink />
               <Button
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                href="https://www.youtube.com/watch?v=f7vsCThn9ME&t=291s"
                 variant="outline"
               >
                 <PlayIcon className="h-6 w-6 flex-none" />
