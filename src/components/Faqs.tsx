@@ -3,39 +3,41 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
+      question: 'Why Purify?',
       answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+        `Zakat purifies our wealth and purifies our soul. "You will never achieve righteousness until you donate some of what you cherish." (AlQuran 3:92).`,
     },
     {
-      question: 'Isn’t this insider trading?',
+      question: 'Is zakat mentioned as a source of purification of wealth in the Quran?',
       answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know.',
+        `“Take, [O, Muhammad], from their wealth a charity by which you purify them and cause them increase, and invoke [ Allah ‘s blessings] upon them. Indeed, your invocations are reassurance..."`,
     },
     {
-      question: 'But isn’t insider trading illegal?',
+      question: 'Is zakat mentioned as a source of purification of wealth in Hadith?',
       answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
+        'Narrated Ibn ‘Abbas that the Messenger of God said: “Indeed God has not made zakat obligatory, except to purify by it the remaining portion of your wealth, indeed He has obligated to share the inheritance on your wealth for those remaining after you” (Sunan Abu Dawud, 1664)        ',
     },
   ],
   [
     {
-      question: 'Do the people giving you tips realize what they are doing?',
+      question: 'Is zakat due on business assets?',
       answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
+        `Yes, this is mentioned in the Quran and Hadith. In Surah Baqarah, Allah (SWT) says: “O believers! Donate from the best of what you have earned and of what We have produced for you from the earth. Do not pick out worthless things for donation, which you yourselves would only accept with closed eyes. And know that Allah is Self-Sufficient, Praiseworthy.” (AlQuran 2:267). “Good things you have earned” refers to income and trade assets acquired through business.
+        According to hadith, Samurah bin Jundub (may Allah be pleased with him) said that the Messenger of Allah (peace and blessings be upon Him) commanded us to give zakat on what we intended for trade. (Sunan Abu Dawood)`
+      ,
     },
     {
-      question: 'Where is Pocket based?',
+      question: 'Where is Purify based?',
       answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
+        'Our team is UK and US based but our guidance can be used worldwide.',
     },
-    {
+    /* {
       question: 'Is there any age limit to trading on Pocket?',
       answer:
         'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
-    },
+    }, */
   ],
-  [
+  /* [
     {
       question: 'How did you get this on the App Store?',
       answer:
@@ -51,7 +53,7 @@ const faqs = [
       answer:
         'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
     },
-  ],
+  ], */
 ]
 
 export function Faqs() {
@@ -82,7 +84,7 @@ export function Faqs() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:mt-20 lg:max-w-none lg:grid-cols-3"
+          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:mt-20 lg:max-w-none lg:grid-cols-2"
         >
           {faqs.map((column, columnIndex) => (
             <li key={columnIndex}>
