@@ -7,10 +7,10 @@ import { motion, useInView, useMotionValue } from 'framer-motion'
 import { AppScreen } from '@/components/AppScreen'
 
 const prices = [
-  997.56, 944.34, 972.25, 832.4, 888.76, 834.8, 805.56, 767.38, 861.21, 669.6,
-  694.39, 721.32, 694.03, 610.1, 502.2, 549.56, 611.03, 583.4, 610.14, 660.6,
-  752.11, 721.19, 638.89, 661.7, 694.51, 580.3, 638.0, 613.3, 651.64, 560.51,
-  611.45, 670.68, 752.56,
+  4723.11, 4710.19, 4732.21, 4772.21, 4712.11, 4800.21, 4722.21, 4711.21, 4800.21, 4722.21,
+  4723.11, 4710.19, 4732.21, 4772.21, 4712.11, 4800.21, 4722.21, 4711.21, 4800.21, 4722.21,
+  4723.11, 4710.19, 4732.21, 4772.21, 4712.11, 4800.21, 4722.21, 4711.21, 4800.21, 4722.21,
+  4732.21, 4772.21, 4712.11,
 ]
 const maxPrice = Math.max(...prices)
 const minPrice = Math.min(...prices)
@@ -177,9 +177,9 @@ export function AppDemo() {
         <div className="p-4">
           <div className="flex gap-2">
             <div className="text-xs leading-6 text-gray-500">
-              Tailwind Labs, Inc.
+              Nisab
             </div>
-            <div className="text-sm text-gray-900">$CSS</div>
+            <div className="text-sm text-gray-900">$GOLD</div>
             <svg viewBox="0 0 24 24" className="ml-auto h-6 w-6" fill="none">
               <path
                 d="M5 12a7 7 0 1 1 14 0 7 7 0 0 1-14 0ZM12 9v6M15 12H9"
@@ -195,7 +195,7 @@ export function AppDemo() {
               <div className="text-2xl tabular-nums tracking-tight text-gray-900">
                 {activeValue.toFixed(2)}
               </div>
-              <div className="text-sm text-gray-900">USD</div>
+              <div className="text-sm text-gray-900">GBP</div>
               {percentageChange && (
                 <div
                   className={clsx(
